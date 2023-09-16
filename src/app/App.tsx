@@ -1,7 +1,7 @@
-import { Button } from "@/components/ui/button";
-import { Separator } from "@/components/ui/separator";
-import { Textarea } from "@/components/ui/textarea";
-import { Label } from "@/components/ui/label";
+import { Button } from "@/app/components/ui/button";
+import { Separator } from "@/app/components/ui/separator";
+import { Textarea } from "@/app/components/ui/textarea";
+import { Label } from "@/app/components/ui/label";
 import { FileVideo, Github, Upload, Wand2 } from "lucide-react";
 import {
   Select,
@@ -9,8 +9,8 @@ import {
   SelectValue,
   SelectItem,
   SelectContent,
-} from "@/components/ui/select";
-import { Slider } from "@/components/ui/slider";
+} from "@/app/components/ui/select";
+import { Slider } from "@/app/components/ui/slider";
 
 export function App() {
   return (
